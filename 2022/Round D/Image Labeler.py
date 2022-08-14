@@ -1,3 +1,5 @@
+# Time Complexity = O(NlogN + M) where NlogN is due to sorting of A and M is due to the for loop of M - 1.
+
 def median(data):
     if len(data) % 2 == 0:
         index_1 = int((len(data) - 1) // 2)
